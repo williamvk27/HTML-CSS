@@ -1,0 +1,35 @@
+Existe vários formatos de imagens , cada uma com suas características , vantagens e desvantagens. 
+porém , vamos focar em dois formatos compactados mais usados para a criançao de site: JPEG e PNG.
+
+
+Formato JPEG
+
+	É usado para gerar imagens  fotográficas com um tamanho extremamente reduzido.
+	A grande vantagem de uso de arquivos JPG (FORMATO JPEG) é gerar arquivos muito pequenos.
+que ocupam pouco espaço em disco . isso é muito importante , pois quando colocamos nosso site no AR , ele tem que ser leve
+para carregar imagem rapidamente . ( " cuidado para nao exagerar na hora de configurar o nível de compactação . isso pode
+fazer que sua imagem fique horrível e toda borrada")
+
+Formato JPG
+
+	A principal característica do PNG . e que diferencia do JPEG - é a capacidade de configurar a opacidade de pixel
+( deixa-lo transparente ou com  transparencia limitada )
+
+Formato Gif 
+	Ele permite 2 coisas interesantes
+	Transparencia 
+	Animçaõ
+
+
+
+Resumo 
+	
+	Na hora de escolher o formato de imagem para seu site  , opte pelo formato JPEG com compactção 30 e 50%.
+	O formato PNG só devere ser usado quando precisamos de transparencia na foto
+
+
+favicon
+				conteúdo
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	ex: <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+

@@ -1,0 +1,11 @@
+<dt>HTML</dt> <!--Termo-->
+<dd>Linguagem de Marcação do Conteúdo do Site.</dd> <!--Descrição-->
+
+
+<ul>Listas não ordenadas</ul>      		 <ul type="circle"> <!--disc , circle , square-->
+
+
+
+<li>Listas Ordenadas</li>
+
+

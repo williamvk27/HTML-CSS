@@ -1,0 +1,26 @@
+<a href="SITE CONTEÚDO"></a> quando o link é interno ( no seu propio site) não precisa de http: .. . ...
+
+			------	para abri nova guia----
+						   ---> para comunicar que é externo 			
+	<a href="SITE CONTEÚDO" target="_blank" rell="external"></a> ( site externos , para abri em uma nova guia)
+						--->	next < ---					
+						    proxima pagina
+						---> prev <----
+						   pagina anterior
+						---> follow ou nofollow <---	vc não confia , mas faz o "merchan"
+						   pagina que você confia , cliente paga para vc fazer um "merchan"
+	para acessar uma pasta que contém uma PAGINA , usar o caminho da pastar 
+							"PASTA/PAGINA.html"
+        para VOLTAR as paginas depois que você entrou em uma PAGINA  dentro de uma PASTA usar o caminho de VOLTA
+					 							../Conteúdo
+
+											--> volte a pagina anterior	
+
+
+
+		-------->			para fazer link com download	   <---------
+
+								   nome do arquivo              .zip . pdf  e etc..
+				<a href="SITE CONTEÚDO " donwload=" CONTEÚDO"type="application/extensão conteúdo">
+
+		EX : 	<a href="livros/04 - Primeiros passos HTML.rar" download="PrimeiroPassosHTML.rar">Baixar Meu Livro em ZIP</a>

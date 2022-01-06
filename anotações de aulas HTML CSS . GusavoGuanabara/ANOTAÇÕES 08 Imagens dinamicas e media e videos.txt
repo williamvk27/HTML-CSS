@@ -1,0 +1,49 @@
+como adicionar imagem dinamica
+tamanhos para celulares padrão é : 300 
+notebook ou pc aparti de : 700
+TVs aparti de 1000
+
+lembre-se . a base sempre é a imagem padrão ("G") tag source media type . sempre acima de img
+bons modos ao cria site , sempre por a msm imagem em 3 tamanhos , para facilitar para usuarios diferentes
+
+<picture>
+
+
+              -> usando sempre max  -> foto adiconada <-          --> sempre por o formato no final , como ta na tag ex : png , sem o .
+ <source media="(max-width: )" srcset="countéudo.png" type="image/png">
+
+
+
+</picture>
+
+						AUDIOS
+		      -> carrega tempo
+			conteúdo<-		  							       --> repetir música <- |conteúdo|
+	<audio preload="metadata |ou auto não recomendado , pq carrega a media automatico|" autoplay controls loop>
+
+	 <source src="conteúdo" type="audio/formato conteúdo"> 
+-----ex->        <source src="midia/dosso.mp3" type="audio/mpeg">
+							  ---> a extensão mp3 é mpeg
+	</audio>
+
+tem outros formatos de midia além do mp3. 
+evite wav . arquivos muitos pesados
+ex : ogg ou wav e etc..
+
+						VIDEOS
+		
+		      -> tamanho espaço video no navegador <-
+			   --> imagem tube do video | onde vai congelar na tela do play |	
+							------> controle de play e pause
+									---------------> repetir video ao termino	
+		<video width="250" poster="imagem/chuva.jpeg" controls autoplay loop >
+
+				    -> local e nome arquivo <-	    	
+			<source src="media/meu-video.mp4.mp4" type="video/mp4">
+
+		</video>
+	sempre up video em mais de 2 formatos , para variedas de navegadores . formatos : mp4 padrão , webm . m4v. ogv
+
+bons modos : sempre explicar ao cliente , que sempre hospedar videos em seu propio local , demanda muita banda e o custo para hospedar fica caro
+sempre é bom upar videos do youtube , alem de economizar , o youtube é o segundo maior buscador do mundo !
+

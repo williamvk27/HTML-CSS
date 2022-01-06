@@ -1,0 +1,33 @@
+atalho para Envelopar FRASE
+Seleciona o "Conteudo"
+
+CTRL + Shift + P 
+aperte ENTER em ABB 
+depois digita a TAG sem sinal de < ou >
+
+		Negrito / Destaque
+
+								(Sem significado)	
+<p>Nesta Frase Temos Um <b> Termo em negrito</b> Usando a tag B(Não Semântica) </p>
+										(Com Significado)
+<p>Nesta Frase,Tenho Um <strong>Termo Em Destaque</strong> Usando a Tag STRONG (Semântica).</p> 
+
+
+		Itálico / Ênfase
+
+<p>Nesta Frase, Temos um <i>Termo em Itálico</i> Usando a Tag I (Não Semântica). </p>
+
+
+<p>Nesta Frase.Temos um <em>Termo em ênfase</em> usando a tag EM (Semântica)</p>
+
+		Texto Marcado
+
+<p>Podemos Criar Também <mark>Texto Marcado</mark> Usando a Tag MARK. </p>
+
+		Abreviações
+
+ao passar o mouse em cima , ira mostrar o conteúdo abreviado(Compeltop em um popup pequeno) 
+<abbr title= Conteúdo ">
+
+
+

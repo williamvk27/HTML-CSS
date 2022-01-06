@@ -1,0 +1,51 @@
+html 
+
+	CONTEÚDO, textos , imagens , videos , tabelas
+	   -- abertura de tag
+	<h1> exemplo de titulo </h1>
+		- conteúdo
+	
+
+		  __->valor         __-> valor
+	<img src="foto.png"alt="exemplo de foto"> 
+		   src alt são parâmetro
+css 
+	
+	DESIGN , cores , sombras , tamanhos , posicionamentos
+
+		
+	-------	-> seletor
+	h1 {
+			____--->declaração
+	 font-family: Arial;
+	 font-size:20pt;
+	 color:blue;	
+    -->	(Propriedadade)	| azul = valor |
+}
+
+
+
+
+
+javascript
+
+	INTERAÇÕES , menus , animações , popups , validações
+
+Estrutura Básica de Documentos HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head> | cabeça |
+		<meta charset"UTF-8"> | compatibilidades , com acentuação |
+		<meta name="viewport"content="widht=device-widht,initial-scale=1.0"> | para visualizão 100% sem necessitar o zoom
+		<title> titulo do site </title>
+	</head>
+
+	<body> | corpo |
+		<h1>Olá Mundo !</h1> | conteúdo do site |
+	</body>
+
+
+
+</html>

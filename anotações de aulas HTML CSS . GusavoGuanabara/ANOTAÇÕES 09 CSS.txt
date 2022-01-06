@@ -1,0 +1,143 @@
+tags css inline 
+
+observações : css inline prevalece na pagina local , depois o local e por ultimo externo
+
+
+
+style="color: cor ;"> para mudar a cor do paragráfo
+
+			      ----------> 						
+style background-color: cor ; font-family: nome da fonte da letra;"> muda a cor do fundo da pagina
+								 <-----
+
+
+fonte-size: tamanho da letra px
+
+text-align: right;"> 
+
+	    ---> lado a letra 
+
+representações de cores 
+
+RGB ( Red . Gren .Blue )
+
+HSL ( hue = matiz . Sturation = satuaração . Luminosity = iluminação )
+
+Hexadecimais ( #000000)
+decimal : 0 1 2 3 4 5 6 7 8 9
+hexadecimal : 0 1 2 3 4 5 6 7 8 9 A B C D E F
+			((((((((( circulo cromatico )))))))))
+
+
+				Cores Primarias
+			AMARELO . VERMELHO . AZUL 
+tem harmonia groesseira
+
+				Cores Secundárias
+			LARANJA . VIOLETA . VERDE
+tem harmonia groesseira
+
+				Cores Terciárias
+			
+esta sempre entre uma cor SECUNDÀRIA e uma COR PRIMARIA
+AMARELO - ESVERDEADO - AMARELO ALARANJADO - VERMELHO ALARANJADO - VERMELHO ARROXEADO - AZUL ARROXEADO 
+
+AZUL ESVERDEADO - AMARELO ESVERDEADO 
+
+				TEMPERATURA DE CORES
+
+		esquerdo cores frias -----------> <----- direita cores quentes
+
+
+				CORES COMPLEMENTARES
+cores que tem contraste : extremo oposto traçar uma reta entre cores
+ex : violeta e amarelo
+
+	
+				CORES ANÁLOGAS
+cores que não tem contraste e são percepetiveis . tem harmonia (CORES IRMÃS . cores aos lados )
+
+				CORES ANÁLOGAS E UMA COMPLENTAR
+adicionar a cor principal o extremo oposto
+
+				CORES ANÁLOGAS E RELACIONADADAS
+pega 2 cores vizinhas , pula uma cor 
+
+				CORES INTERCALADAS
+1 cor principal pula 1  escolhe 1 e pula +1 e escolhe 1
+
+				CORES TRIÁDICAS
+COR DE REFERENCIA . PULAR SEMPRE 3 CORES . ESCOLHE 1 COR E PULA 3 CORES  E ESCOLHE 1 PULA 3
+
+				CORES EM QUADRADO
+COR DE REFERENCIA . PULA 2 CORES ESCOLHE 1 PULA 2 CORES E ESCOLHE 1 PULA 2 CORES ESCOLHE 1
+
+				CORES TETRÁDICAS
+COR DE REFERENCIA COR EXTREMO OPOSTO . ESCOLHE 1 COR E EXTREMO OPOSTO
+
+				MONOCROMIA ( DEGRADE)
+COR DE REFERENCIA . MODIFICA 2 CARACTERISTICAS . SATURAÇÃO E BRILHO 
+
+				
+				PALETA DE CORES
+sempre inicia com a cor principal
+geralmente paleta tem entre 3 ha 5 cores no maximo ( ignora o preto e branco )
+bons modos : cor da logo do cliente  verificar a cor primaria e iniciar por ela
+
+				CRIANDO DEGRADÊ
+
+ * { /*configurações globais das css*/
+        height: 100%;
+       }
+       body{		      radial-grandient para angulo		
+				|		-->formato 		
+            background-image: linear-gradient (circle , cor 1 , cor 2 , cor 3 );  | cores entre 3 max 5 |
+	formato deitado	    	        <---- to bottom 	
+	em 45 graus	     		< ---- 	45deg
+	% nas cores de 0 a 99
+
+
+width = largura
+padding : numeropx; = acoxeamento
+ margin: auto; = centralizar texto
+border-radius: numeropx; = redondar bordas
+box-shadow: ( andar pro lado px? ) ( andar pra baixo px?) ( transparencia px? )
+text-align conteúdo = lado do texto , centro direita e etcc...
+
+tamanho fonte : recomendação utilizar px ou em
+
+----------> muda letra
+font-family : conteúdo , counteúdo , conteúdo ;
+px = pixel
+em = dobro de pixel
+
+pegar fontes externas : site muito bom google fontes
+não exagerar em quantidades de fontes , maximo 3
+
+					ID
+/* em HTML é id = em CSS é #
+    em CSS é class = CSS é .
+*/
+	-->nome    conteúdo 
+<h1 id="principal">Criando Sites com HTML</h1>
+
+h1#principal{
+    text-align: center;
+    background-color: white;
+	  --> nome
+h2 class="intermediario destaque">
+usa class ao invez de ID . id so pode ser usado uma vez
+
+
+							PSEUDOCLASSE
+
+: SÃO UMA PSEUDOCLASSE , são relacionado ao estado do elemento
+se ele ta ativo? desabilitado? vazio? 
+:hover | quando passar o mouse por cima , tera uma interação
+background-color: yellow;
+
+	# = id
+	. = class
+	: = pseudo class
+	:: = pseudo element
+	>  = clildren    | filho |

@@ -1,0 +1,18 @@
+
+<table>
+	<tr> <!--Primeira Linha-->
+		<td>counteúdo</td>
+	</tr>
+
+
+</table>
+
+
+
+se vc nao colocar os elementos na hierarquia correta , os dado vao aparecer antes ou depois da tabela
+
+
+text-align: center; /* Alinhamento Horizontal*/  
+            vertical-align: middle; /*  alinha vertical , pode ser usado bottom ( embaixo) top (em cima) */
+
+

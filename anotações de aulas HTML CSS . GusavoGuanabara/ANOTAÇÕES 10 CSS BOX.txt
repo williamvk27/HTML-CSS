@@ -1,0 +1,16 @@
+					TIPOS DE Caixa
+
+
+box-level         inline-level
+div			span
+h1-h6			a
+main			code
+header			small
+nav			strong
+article			em
+aside			sup-sub
+footer			label
+form			input
+video			select
+
+

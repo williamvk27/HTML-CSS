@@ -1,0 +1,80 @@
+background-image : url('conteúdo');
+
+
+obs : para criar uma box de teste , para sua imagem
+
+border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 10px;
+
+
+http://gustavoguanabara.github.io/html-css/imagens/mascote.png
+
+
+
+
+background-repeat: repeat-x; 
+	para repetir deitado (em linha)
+background-repeat: repeat-y;
+	para repetir em cima do outro 
+
+						posicão da imagem
+
+background-position: coluna depois a linha 
+ 	     exemplo right	     bottom
+
+
+
+						
+background-size : cover;
+ 	+       | fazer conteúdo aparecer por completo , independente do tamanho da imagem (fundo)
+background-attachment: fixed;
+
+					shorthand - background
+ color > image > position > repeat > [size] > attachment   | ordem cor , imagem , posição , repetição .. .. .. etc. [size] verificar se a att ta disponivel para uso
+
+
+						alinhamento vertical
+
+  
+#container{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            
+            left: 50%;
+            top: 50%;
+            
+            transform: translate(-50% , -50%);
+        }
+
+
+
+
+
+	 <section id="container">
+        	<article id="conteudo">
+
+        	</article>
+   	 </section>
+
+para realizar o alinhamento vertical as presenças de id="container" e id="conteudo" 
+container tem que position relative
+conteudo tem que position absolute
+para desbloquear  2 propieadades LEFT e TOP
+transform: translate (   ,   );
+

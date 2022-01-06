@@ -1,0 +1,39 @@
+<h1> aumentar letra ( como titulo de texto ) </h1>
+
+<p> criar um paragrafo </p>
+
+<hr> linha horizontal </hr> |---------------------------------|
+
+<!-- |conteúdo|  --> comentarios
+&lt; simbolo maior |<| &gt; simbolo menor |>|
+
+
+Podemos Criar Também <mark>Texto Marcado</mark> Usando a Tag MARK.
+
+
+	Negrito / Destaque
+
+								(Sem significado)	
+<p>Nesta Frase Temos Um <b> Termo em negrito</b> Usando a tag B(Não Semântica) </p>
+										(Com Significado)
+<p>Nesta Frase,Tenho Um <strong>Termo Em Destaque</strong> Usando a Tag STRONG (Semântica).</p> 
+
+
+		Itálico / Ênfase
+
+<p>Nesta Frase, Temos um <i>Termo em Itálico</i> Usando a Tag I (Não Semântica). </p>
+
+
+<p>Nesta Frase.Temos um <em>Termo em ênfase</em> usando a tag EM (Semântica)</p>
+
+		Texto Marcado
+
+<p>Podemos Criar Também <mark>Texto Marcado</mark> Usando a Tag MARK. </p>
+
+<inframe> conteúdo </inframe> | para colocarmos um site dentro da nossa própia pagina ex : google maps , previsão do tempo e etc.. 
+
+
+ <style>      | para mudar a cor , em HTML |
+        conteúdo {
+            background-color: rgba(241, 226, 11, 0.185);
+        }
