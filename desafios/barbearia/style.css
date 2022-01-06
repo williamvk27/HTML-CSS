@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+
+body{
+    width: 600px;
+    margin: 10px auto;
+    background-color: gray;
+}
+
+
+div#imagem {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    border: 1px solid black;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+h2 , h3 , h4 {
+    font-family: 'Bebas Neue';
+    margin-top: 45px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+p{
+   font-family: 'Bebas Neue'; 
+}
+
+div#contato{
+    text-decoration: none ;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+section{
+    text-align: center;
+    margin-top: 30px;
+}
